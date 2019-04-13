@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Angular-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.83854167%" y1="86.5364583%" x2="91.2044271%" y2="19.3880208%" id="linearGradient-1">
+            <stop stop-color="#008BFF" offset="0%"/>
+            <stop stop-color="#2C6FAD" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g id="UI-Desktop-Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stories-Desktop" transform="translate(-183.000000, -2182.000000)">
+            <g id="Tech-Stack" transform="translate(18.000000, 1644.000000)">
+                <g id="Technologies" transform="translate(0.000000, 538.000000)">
+                    <g id="Angular-2" transform="translate(165.000000, 0.000000)">
+                        <circle id="Oval-7" fill="url(#linearGradient-1)" cx="42.5" cy="42.5" r="42.5"/>
+                        <g id="angular-icon-1" transform="translate(24.000000, 25.000000)" fill-rule="nonzero">
+                            <polygon id="Shape" fill="#E23237" points="0.013671875 6.19233088 17.2139844 0.0948125 34.8775 6.08391544 32.0174805 28.726011 17.2139844 36.8831507 2.64208984 28.8344265"/>
+                            <polygon id="Shape" fill="#B52E31" points="34.8775 6.08391544 17.2139844 0.0948125 17.2139844 36.8831507 32.0174805 28.739614"/>
+                            <path d="M17.2411914,4.39021324 L6.52339844,28.1163272 L10.527207,28.0485846 L12.6790234,22.6962353 L22.2937695,22.6962353 L24.6498437,28.1163272 L28.4766016,28.1840699 L17.2411914,4.39021324 Z M17.2685352,11.9918088 L20.8910352,19.5255257 L14.0816211,19.5255257 L17.2685352,11.9918088 Z" id="Shape" fill="#FFFFFF"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JOBIN PAUL K</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  </style>
+     
+   
+</head>
+<body>
+<div class="container">
+<header>
+  <nav class="nav">
+    <div class="menu-btn hide-desktop" id="menu-ham" onclick="myFunction(this), toggleVisibilitynav()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+      </div>
+    <div class="ul hide-mobile show-desktop" id="hide-mobile-nav-item">
+      <a class="nav-item "  href="">HOME</a>
+      <a class="nav-item "  href="">GALLERY</a>
+      <a class="nav-item "  href="#projects">WORKS</a>
+      <a class="nav-item "  href="">ABOUT</a>
+    </div>
+  </nav>
+  <a class="verticaltext1" href="#">facebokk</a>
+
+  <div class=" image-container">
+    <img class="img-responsive titleimg" src="images/ben-kolde-430912-unsplash.jpg" alt="designer">
+      <span>
+             <h1 class="title-top-left">jobin paul k</h1>
+       </span>
+  </div>
+</header>
+</div>
+
+<section>
+  
+    <div id="projects" class="container center black-container">
+      <ul id="project-list" class="float-right">
+        <li class="project1 project"><p class="project-title project-title1"  onmouseover="showfirst()">01. <span class="projectname" id="eventlistener1"><a href="gohiking.html">GoHiking</a></span></p>
+        </li>
+        <hr />
+        <li class="project2 project"><p class="project-title project-title2"  onmouseover="showsecond()">02.  <span class="projectname" id="eventlistener2"><a href="angular.html">ANGULAR</a></span></p>
+        </li>
+        <hr />
+        <li class="project3 project"><p class="project-title project-title3"  onmouseover="showthird()">03.  <span class="projectname" id="eventlistener3"><a href="https://gifted-mestorf-a58d46.netlify.com/">CakeBazar</a></span></p>
+        </li>
+        <hr />
+        <li class="project3 project"><p class="project-title project-title4"  onmouseover="showthird()">04.  <span class="projectname" id="eventlistener4"><a href="https://suspicious-leakey-23a590.netlify.com/">Folding Homes</a></span></p>
+        </li>
+        
+      </ul>
+      <p class="verticaltext"></p>
+      <!-- <p id="projectdesc" class=" projectdesc"></p> -->
+      <img  id="slider" class="project-img active" src="images/white_id_negativo_monocroma__tico-300.png">
+      
+   </div>
+  
+  </section>          
+  <section class="black">
+    <span>
+        <h3 class="float-left aboutme"> About Me</h3>
+        <img class="profile-image hide-mobile float-right" src="images/Screenshot_20190205-185638----1.png" alt="">
+        <div class="overlay"></div>
+     </span>
+      <p class="paragraph"> 
+              Everything started with a passion for Web technologies.<br/>
+              I loves coding,designing,I enjoy turning complex problems into simple, beautiful and intuitive designs.<br/>
+              During my past times, I have developed skills for both the functional and aesthetic components of websites.<br/> Here are some highlights of my accomplishments as a Web Developer:<br/>
+              Created various simple websites with HTML, CSS, BOOTSTRAP,Angular ,Node etc  ,tested and deployed on netlify, firebase and heroku.<br/><br />
+              <strong>SKILLS: </strong>HTML5, CSS, JAVA SCRIPT, ANGULAR, NODE, EXPRESS, MONGODB, BULMA, SASS, PYTHON, PHP,SQL DESIGNING TOOLS<br/>
+          
+              Earned Bachelor’s degree in <strong>Electronics and Communication from CUSAT University,</strong> Cochin.<br/>
+              
+         </p>      
+  </section>
+  <footer>
+      <div class="container">
+          <p class="footer" onclick="toggleVisibility()"></p>
+          <div class="footer-list" id="footerid">
+           <p class="footer-items"><a href="#">Home</a></p>
+          <p class="footer-items"><a href="#">Projects</a></p>
+          <p class="footer-items"><a href="#">About</a></p>
+      </div>
+  </footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+    <script>
+      //images for projects 
+      var images = [
+    'images/holly-mandarich-326680-unsplash.jpg', 
+    'images/thomas-ae-602202-unsplash.jpg', 
+    'images/annie-spratt-133872-unsplash.jpg',
+    'images/brian-babb-256298-unsplash.jpg'
+];
+var titles = ['Angular - matrimonial WebApp', 'Node,MongoDB - Hiking-locations', 'website, -Cake Online', 
+'Website - Folding Homes'];
+//eventlistener 
+document.getElementById('eventlistener1').addEventListener('mouseover', mouseOver1);
+document.getElementById('eventlistener1').addEventListener('mouseout', mouseOut);
+document.getElementById('eventlistener2').addEventListener('mouseover', mouseOver2);
+document.getElementById('eventlistener2').addEventListener('mouseout', mouseOut);
+document.getElementById('eventlistener3').addEventListener('mouseover', mouseOver3);
+document.getElementById('eventlistener3').addEventListener('mouseout', mouseOut);
+document.getElementById('eventlistener4').addEventListener('mouseover', mouseOver4);
+document.getElementById('eventlistener4').addEventListener('mouseout', mouseOut);
+function mouseOver1(){
+        document.getElementById('slider').src = images[0];
+        document.getElementById('projectdesc').innerHTML = titles[0];
+}
+function mouseOut(){
+   document.getElementById('slider').src= "images/white_id_negativo_monocroma__tico-300.png";
+    document.getElementById('projectdesc').innerHTML = '';
+}
+function mouseOver2(){
+  document.getElementById('slider').src= images[1];
+  document.getElementById('projectdesc').innerHTML = titles[1];
+}
+function mouseOver3(){
+  document.getElementById('slider').src= images[2];
+  document.getElementById('projectdesc').innerHTML = titles[2];
+}
+function mouseOver4(){
+  document.getElementById('slider').src= images[3];
+  document.getElementById('projectdesc').innerHTML = titles[3];
+}
+//footer toggle
+function toggleVisibility(){
+  var f = document.getElementById("footerid");
+  if (f.style.display === 'block'){
+    f.style.display = 'none';
+  } else{
+    f.style.display = 'block';
+  }
+  }
+//nav
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+  function toggleVisibilitynav(){
+  var f = document.getElementById("hide-mobile-nav-item");
+  if (f.style.display === 'block'){
+    f.style.display = 'none';
+  } else{
+    f.style.display = 'block';
+  }
+  }
+
+   
+</script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</body>
+</html>

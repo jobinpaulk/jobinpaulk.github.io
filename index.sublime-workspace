@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"d",
+				"doctype\tDOCTYPE HTML"
+			],
+			[
+				"s",
+				"subscribe\tmethod"
+			],
+			[
+				"g",
+				"getGrooms\tmethod"
+			],
+			[
+				"Gr",
+				"GroomsService\talias"
+			],
+			[
+				"p",
+				"private\tkeyword"
+			],
+			[
+				"i",
+				"interfaces\tscript"
+			],
+			[
+				"Ob",
+				"Observable\talias"
+			],
+			[
+				"in",
+				"interface\tkeyword"
+			],
+			[
+				"b",
+				"business_name\twarning"
+			],
+			[
+				"f",
+				"findById\twarning"
+			],
+			[
+				"Bu",
+				"BusinessService\talias"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"Bus",
+				"Business\talias"
+			],
+			[
+				"ret",
+				"return\tkeyword"
+			],
+			[
+				"r",
+				"recipe-list.component\tscript"
+			],
+			[
+				"reci",
+				"recipe-list\tdirectory"
+			],
+			[
+				"btn-s",
+				"btn-success \tBootstrap 3 Class"
+			],
+			[
+				"Re",
+				"Recipe\talias"
+			],
+			[
+				"dropdown",
+				"dropdown-menu \tBootstrap 3 Class"
+			],
+			[
+				"navbar",
+				"navbar-collapse \tBootstrap 3 Class"
+			],
+			[
+				"na",
+				"navbar-default \tBootstrap 3 Class"
+			],
+			[
+				"drop",
+				"dropdown-menu \tBootstrap 3 Class"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"navba",
+				"navbar-brand \tBootstrap 3 Class"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"Nu",
+				"Number\tconst"
+			],
+			[
+				"S",
+				"String\tconst"
+			],
+			[
+				"re",
+				"require\tkeyword"
+			],
+			[
+				"bu",
+				"business_gst_number\tparameter"
+			],
+			[
+				"per",
+				"person_name\tparameter"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"set p",
+				"Set Syntax: Python"
+			],
+			[
+				"",
+				"Snippet: if __name__ == '__main__'"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"types",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jobin/portfolio/index.html",
+		"/C/Users/jobin/portfolio/index.ht,l",
+		"/C/Users/jobin/Downloads/html5up-landed/ggg.html",
+		"/C/Users/jobin/matrimonial/angular/src/assets/grooms.json",
+		"/C/Users/jobin/matrimonial/angular/src/app/app.component.html",
+		"/C/Users/jobin/matrimonial/angular/src/app/app.module.ts",
+		"/C/Users/jobin/matrimonial/angular/src/app/groom/groom.component.html",
+		"/C/Users/jobin/matrimonial/angular/src/app/groom/groom.component.ts",
+		"/C/Users/jobin/matrimonial/angular/src/app/groom/groom.module.ts",
+		"/C/Users/jobin/matrimonial/angular/angular.json",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-edit/gst-edit.component.html",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-edit/gst-edit.component.ts",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-add/gst-add.component.ts",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-get/gst-get.component.html",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-add/gst-add.component.html",
+		"/C/Users/jobin/crud/angularcrud/src/app/app.component.html",
+		"/C/Users/jobin/crud/angularcrud/src/app/gst-get/gst-get.component.ts",
+		"/C/Users/jobin/crud/angularcrud/node_modules/@angular/compiler-cli/node_modules/yargs/yargs.js",
+		"/C/Users/jobin/Downloads/html5up-landed/index.html",
+		"/C/Users/jobin/crud/angularcrud/src/app/app-routing.module.ts",
+		"/C/Users/jobin/angular/src/app/app.component.html",
+		"/C/Users/jobin/angular/src/app/recipes/recipes.component.html",
+		"/C/Users/jobin/angular/src/app/recipes/recipe-list/recipe-list.component.html",
+		"/C/Users/jobin/angular/src/app/recipes/recipe-list/recipe-list.component.ts",
+		"/C/Users/jobin/angular/src/app/header/header.component.html",
+		"/C/Users/jobin/angular/src/app/recipes/recipe.model.ts",
+		"/C/Users/jobin/angularproj/angularproj/angular.json",
+		"/C/Users/jobin/angularproj/angularproj/src/app/app.module.ts",
+		"/C/Users/jobin/angularproj/angularproj/src/app/header/header.component.ts",
+		"/C/Users/jobin/angularproj/angularproj/src/app/app.component.html",
+		"/C/Users/jobin/angularproj/angularproj/src/app/header/header.component.html",
+		"/C/Users/jobin/crud/api/models/business.js",
+		"/C/Users/jobin/crud/angularcrud/src/app/business.ts",
+		"/C/Users/jobin/crud/angularcrud/src/app/app.module.ts",
+		"/C/Users/jobin/crud/angularcrud/angular.json",
+		"/C/Users/jobin/crud/api/business.js",
+		"/C/Users/jobin/crud/api/DB.js",
+		"/C/Users/jobin/crud/angularcrud/src/app/app.component.ts",
+		"/C/Users/jobin/crud/angularcrud/src/styles.css",
+		"/C/Users/jobin/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/C/Users/jobin/webscrap/python.py",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers.component.css",
+		"/C/Users/jobin/node/bestangularapp/src/app/app.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers-list/customers-list.component.html",
+		"/C/Users/jobin/node/bestangularapp/src/app/orders/orders.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/orders/orders-routing.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers-list/customers-list.component.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/orders/orders.component.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/orders/orders.component.html",
+		"/C/Users/jobin/node/bestangularapp/src/app/orders/orders.component.css",
+		"/C/Users/jobin/node/bestangularapp/src/app/core/data.service.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/app-routing.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/app.component.html",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers-routing.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/shared/capitalize.pipe.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers.component.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/core/core.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers-list/filter-textbox.component.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/core/sorter.service.ts",
+		"/C/Users/jobin/node/bestangularapp/src/assets/customers.json",
+		"/C/Users/jobin/node/bestangularapp/src/app/cors/cors.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/shared/shared.module.ts",
+		"/C/Users/jobin/node/bestangularapp/src/assets/orders.json",
+		"/C/Users/jobin/node/bestangularapp/src/app/customers/customers.component.html",
+		"/C/Users/jobin/node/bestangularapp/src/app/shared/interfaces.ts",
+		"/C/Users/jobin/node/bestangularapp/src/app/app.component.css",
+		"/C/Users/jobin/node/bestangularapp/src/assets/styles.css",
+		"/C/Users/jobin/node/bestangularapp/src/app/app.component.ts",
+		"/C/Users/jobin/node/my-dream-app/src/app/add-user/add-user.component.html",
+		"/C/Users/jobin/node/my-dream-app/src/app/edit-user/edit-user.component.ts",
+		"/C/Users/jobin/node/my-dream-app/src/app/edit-user/edit-user.component.html",
+		"/C/Users/jobin/node/my-dream-app/src/app/list-user/list-user.component.ts",
+		"/C/Users/jobin/node/my-dream-app/src/app/list-user/list-user.component.html",
+		"/C/Users/jobin/node/my-dream-app/src/app/api.service.ts",
+		"/C/Users/jobin/node/my-dream-app/src/app/add-user/add-user.component.ts",
+		"/C/Users/jobin/node/my-dream-app/src/app/login/login.component.html",
+		"/C/Users/jobin/yelpcamp/public/stylesheets/landing.css",
+		"/C/Users/jobin/yelpcamp/views/edit.ejs",
+		"/C/Users/jobin/yelpcamp/views/form.ejs",
+		"/C/Users/jobin/yelpcamp/routes/campgrounds.js",
+		"/C/Users/jobin/yelpcamp/seed.js",
+		"/C/Users/jobin/yelpcamp/views/show.ejs",
+		"/C/Users/jobin/yelpcamp/views/partials/header.ejs",
+		"/C/Users/jobin/yelpcamp/models/campground.js",
+		"/C/Users/jobin/yelpcamp/views/partials/footer.ejs",
+		"/C/Users/jobin/yelpcamp/views/login.ejs",
+		"/C/Users/jobin/yelpcamp/middleware/index.js",
+		"/C/Users/jobin/yelpcamp/routes/comments.js",
+		"/C/Users/jobin/yelpcamp/app.js",
+		"/C/Users/jobin/yelpcamp/public/stylesheets/main.css",
+		"/C/Users/jobin/yelpcamp/routes/index.js",
+		"/C/Users/jobin/yelpcamp/views/landing.ejs",
+		"/C/Users/jobin/yelpcamp/views/comments/edit.ejs",
+		"/C/Users/jobin/yelpcamp/views/comments/form.ejs",
+		"/C/Users/jobin/yelpcamp/models/comment.js",
+		"/C/Users/jobin/yelpcamp/views/register.ejs",
+		"/C/Users/jobin/yelpcamp/views/campgrounds.ejs",
+		"/C/Users/jobin/yelpcamp/views/logout.ejs",
+		"/C/Users/jobin/yelpcamp/models/user.js",
+		"/C/Users/jobin/yelpcamp/public/stylesheets/main.CSS",
+		"/C/Users/jobin/yelpcamp/package.json",
+		"/C/Users/jobin/node/mean/angular/src/app/male/male.component.ts",
+		"/C/Users/jobin/node/webapp/angular/src/app/cat/cat.component.ts",
+		"/C/Users/jobin/node/mean/angular/src/app/male/male.component.html",
+		"/C/Users/jobin/node/mean/angular/src/app/male/male.component.spec.ts",
+		"/C/Users/jobin/node/mean/angular/src/app/app.module.ts",
+		"/C/Users/jobin/node/webapp/angular/src/app/cat/cat.component.spec.ts",
+		"/C/Users/jobin/node/webapp/angular/src/app/cat/cat.component.html",
+		"/C/Users/jobin/node/mean/angular/src/app/male.ts",
+		"/C/Users/jobin/node/mean/angular/src/app/male.service.ts",
+		"/C/Users/jobin/node/mean/angular/src/app/app.component.ts",
+		"/C/Users/jobin/node/mean/angular/src/assets/data.json",
+		"/C/Users/jobin/node/mean/angular/src/app/in-memory-data.service.ts",
+		"/C/Users/jobin/node/mean/angular/src/app/app.component.spec.ts",
+		"/C/Users/jobin/websockets/public/style.css",
+		"/C/Users/jobin/websockets/index.js",
+		"/C/Users/jobin/websockets/package.json",
+		"/C/Users/jobin/node/angular-tour-of-heroes/node_modules/@angular/animations/bundles/animations-browser.umd.js",
+		"/C/Users/jobin/node/mean/angular/src/assets/.gitkeep",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.html",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/app.component.html",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/hero-detail/hero-detail.component.ts",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/heroes/heroes.component.ts",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/heroes/heroes.component.html",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/app.module.ts",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/hero.ts",
+		"/C/Users/jobin/node/angular-tour-of-heroes/src/app/mock-heroes.ts"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,1151 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+section {
+   min-width: 100%;
+    min-height: 100%;
+    margin-left: 0rem;
+    font-size: 2rem;
+margin: 0;
+  padding: 0;
+  border: 0;
+  }
+.titleimg{
+  width: 90vw;
+  height:  100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#hide-mobile-nav-item{
+    display: flex;
+
+    justify-content: start;
+
+
+  }
+  .nav-item{
+    padding-left: 2rem !important;
+    color: gray;
+    text-decoration: none;
+  }
+
+.image-container {
+  position: relative;
+}
+.title-top-left{
+  position: absolute;
+  top:  0em;
+  left: 0em;
+  margin-top: 0em;
+  font-size: 3rem;
+  font-family: "tt_commons", "Helvetica", "Arial", sans-serif;
+ border:  1em solid #f5ebe1;
+  background: #f5ebe1;
+
+}
+.title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 2rem }
+}
+.verticaltext1{
+  position: absolute;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.black-container{
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.project-img{
+  width: 30rem;
+  height: 30rem;
+  padding-top: 6rem;
+ padding-right: 3rem;
+}
+/* .float-right{
+  padding-right: 10rem;
+} */
+
+.project{
+  font-size: 2.5rem;
+  opacity: 1;
+}
+.project1:hover{
+  opacity: 1;
+}
+.center{
+ display: flex;
+ justify-content: space-around;
+}
+.projectname a{
+  color: black;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+/* 923 minimum-width desktop*/
+#project-list{
+  position: absolute;
+  animation: projectlist;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+@keyframes projectlist {
+  0% { left: -1100px}
+  100%{ left: 0 }
+}
+
+.thin-black-container{
+
+/*   background-image:  url('file.jpg'); */
+  color: white;
+  background-color: black;
+/*   background-size: cover; */
+ /*  background-position: right bottom, left top; */
+ /*  background-repeat: no-repeat; */
+/*   position: relative; */
+
+ 
+ 
+}
+.pink-container{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.projectname{
+  position: relative;
+  cursor: pointer;
+}
+.projectname:hover{
+  animation: projectname;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+
+}
+@keyframes projectname {
+  0% {left: 0}
+  100% { left: 2rem }
+}
+.project-title{
+  font-size: 2rem;
+}
+.project-title1::after{
+  content: 'Node -Express-MongoDB';
+  display: block;
+  font-size: 1.2rem;
+}
+.project-title2::after{
+  content: 'MEAN stack';
+  display: block;
+  font-size: 1.2rem;
+}
+.project-title3::after{
+  content: 'Website - Cake Online Delivery';
+  display: block;
+  font-size: 1.2rem;
+}
+.project-title4::after{
+  content: 'website -   Folding Homes';
+  display: block;
+  font-size: 1.2rem;
+}
+.projectdesc{
+ padding-right: 1rem;
+ font-weight: bold;
+}
+.verticaltext::after{
+content: 'my Projects';
+display: block;
+opacity: 0.3;
+font-size: 3rem;
+transform: rotate(-90deg);
+transform-origin: right top 0;
+margin-left: 25rem;
+margin-top: 10rem;
+
+}
+.aboutme{
+   font-size: 2rem;
+   padding-left: 2rem;
+}
+
+.profile-image{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50% inherit;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.black{
+  background: black;
+  color:  white;
+  /*  line-height: 0.1rem; */
+}
+p{
+
+  font-size: 1rem;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.paragraph{
+  font-size: 1rem;
+  padding: 8%;
+  line-height: 150%;
+  clear: left;
+}
+.marqueeimages{
+  width: 5rem;
+  height: 5rem;
+
+}
+.marqueetext{
+  text-align: center;
+}
+em{
+  font-size: 1rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 2rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  display: flex;
+  display: inline-block;
+  justify-content: space-between;
+ font-size: 2rem;
+padding-left: 1rem;
+}
+.footer-items a{
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+#footerid{
+  display: none;
+
+}
+footer{
+  background: white;
+  color: black;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .hide-desktop{
+    display: none;
+  }
+}
+
+@media screen and (max-width : 1224px) {
+    .hide-mobile{
+      display: none;
+    }
+  #hide-mobile-nav-item{
+    display: none;
+  }
+  .title-top-left{
+    font-size: 2rem;
+  }
+  .paragraph{
+    font-size: 1.5rem;
+  }
+  em{
+    font-size: 1.5rem;
+  }
+  .titleimg{
+  width: 90vw;
+  height:  50vh;
+}
+.projectname:hover{
+  animation: none !important;
+  
+}
+. project{
+  justify-content: center;
+  position: absolute;
+}
+#project-list{
+ 
+  animation: none;
+  font-size: 0.5rem;
+  
+}
+#projects{
+  font-size: 0.5rem;
+
+}
+.projectname{
+ animation:  none;
+
+  cursor: pointer;
+}
+.verticaltext::after{
+
+margin-right: 0rem;
+opacity: 0.3;
+font-size: 4rem;
+
+}
+/* .black{
+  background: url('Screenshot_20190205-185638----1.png' );
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -2;
+opacity: 0.5;
+
+
+} */
+.overlay{
+  background: rgba(0,0,0,0.5)
+}
+.paragraph{
+
+  z-index: 2;
+  opacity: 1;
+  color: white;
+}
+
+  
+}
+
+@media screen and (min-width: 1900px) {
+
+
+  .title-top-left{
+    font-size: 5rem;
+  }
+  .paragraph{
+    font-size: 1.5rem;
+  }
+  em{
+    font-size: 3rem;
+  }
+  .nav-item{
+    font-size: 2.5rem;
+  }
+  .project-title{
+  font-size: 2.2rem;
+}
+.project-title::after{
+  
+  
+  font-size: 1.5rem;
+}
+.profile-image{
+  width: 10rem;
+  height: 10rem;
+  padding-right: 5rem;
+}
+.aboutme{
+   font-size: 3.5rem;
+   padding-left: 5rem;
+}
+.footer::before{
+  
+  font-size: 3.8rem;
+  
+
+}
+.footer-items{
+  
+ 
+ font-size: 2.5rem;
+
+}
+
+
+}
+
+
+
+
+/* 
+/* 
+
+@media screen and (min-width: 480px) {
+  
+}
+
+@media screen and (min-width: 980px) {
+  section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+    font-size: 2rem;
+
+  }
+  header{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .titleimg{
+    height:  100vh;
+    width:  100vw;
+  }
+  .thin-black-container{
+    line-height: 3rem;
+    word-spacing: 2rem;
+   
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  .titleimg{
+    width:  70vw;
+    height: 70vh;
+  }
+  .ul{
+    padding-left: 3rem;
+  }
+  .nav-item{
+    margin-left: 0rem;
+    padding-left:  2rem;
+  }
+  .title-top-left{
+    width:  14vw;
+    height:  8vh;
+    font-size: 1.5rem;
+  }
+ .title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 3rem }
+}
+.black-container{
+  
+  display: flex;
+  justify-content: center;
+ 
+  padding-bottom: 8%;
+}
+.thin-black-container{
+  margin-top: 4%;
+
+}
+
+.project-img{
+  width: 40rem;
+  height: 40rem;
+  padding-top: 5rem;
+ padding-right: 2rem;
+}
+.project-title{
+  font-size: 2.2rem;
+}
+.project-title::after{
+   display: block;
+  font-size: 1.3rem;
+}
+#projects{
+  position: relative;
+  
+}
+.verticaltext::after{
+
+
+font-size: 1.1rem;
+
+margin-left: 25rem;
+margin-top: 50%;
+
+}
+.aboutme{
+   font-size: 2rem;
+   padding-left: 3rem;
+   line-height: 2rem;
+   padding-top: 1em;
+}
+.profile-image{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10% 50% 10%;
+  padding-top: 2em;
+  padding-right: 5rem;
+}
+
+.black{
+  font-size: 1.5rem;
+   line-height: 0.5rem;
+   padding-bottom: 0rem;
+}
+p{
+  font-size: 2rem;
+  line-height: 130%;
+  word-spacing: 0.5rem;
+}
+.para{
+  padding-top: 20%;
+  text-indent: 10%;
+}
+.images{
+  width: 8rem;
+  height: 8rem;
+  
+
+}
+
+
+
+em{
+  font-size: 2rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 3rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  
+ font-size: 2.5rem;
+padding-left: 3rem;
+}
+
+
+
+footer{
+  background: #f5ebe1;
+  color: black;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+    font-size: 2rem;
+
+  }
+  header{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .titleimg{
+    height:  100vh;
+    width:  100vw;
+  }
+  .thin-black-container{
+    line-height: 3rem;
+    word-spacing: 2rem;
+   
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  
+  .nav-item{
+    margin-left: 0rem;
+    padding-left:  0rem;
+  }
+  .title-top-left{
+    width:  18vw;
+    height:  10vh;
+    font-size: 3rem;
+  }
+ .title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 3rem }
+}
+.black-container{
+  
+  display: flex;
+  justify-content: center;
+ 
+  padding-bottom: 8%;
+}
+.thin-black-container{
+  margin-top: 4%;
+
+}
+
+.project-img{
+  width: 40rem;
+  height: 40rem;
+  padding-top: 5rem;
+ padding-right: 2rem;
+}
+.project-title{
+  font-size: 2.2rem;
+}
+.project-title::after{
+   display: block;
+  font-size: 1.3rem;
+}
+#projects{
+  position: relative;
+  
+}
+.verticaltext::after{
+
+
+font-size: 2rem;
+
+margin-left: 25rem;
+margin-top: 50%;
+
+}
+.aboutme{
+   font-size: 2rem;
+   padding-left: 3rem;
+   line-height: 2rem;
+   padding-top: 1em;
+}
+.profile-image{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10% 50% 10%;
+  padding-top: 2em;
+  padding-right: 5rem;
+}
+
+.black{
+  font-size: 1.5rem;
+   line-height: 0.5rem;
+   padding-bottom: 0rem;
+}
+p{
+  font-size: 3rem;
+  line-height: 130%;
+  word-spacing: 0.5rem;
+}
+.para{
+  padding-top: 13%;
+  text-indent: 10%;
+}
+.images{
+  width: 8rem;
+  height: 8rem;
+  
+
+}
+
+
+
+em{
+  font-size: 1.5rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 3rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  
+ font-size: 2.5rem;
+padding-left: 3rem;
+}
+
+
+
+footer{
+  background: #f5ebe1;
+  color: black;
+}
+}
+/* Desktops and laptops ----------- */
+/* @media only screen  and (min-width : 1224px) {
+  section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+    font-size: 2rem;
+
+  }
+  header{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .titleimg{
+    height:  100vh;
+    width:  100vw;
+  }
+  .thin-black-container{
+    line-height: 3rem;
+    word-spacing: 2rem;
+   
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  .titleimg{
+    width:  70vw;
+    height: 70vh;
+  }
+  .nav-item{
+    margin-left: 0rem;
+    padding-left:  0rem;
+  }
+  .title-top-left{
+    width:  18vw;
+    height:  10vh;
+    font-size: 2.2rem;
+  }
+ .title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 3rem }
+}
+.black-container{
+  
+  display: flex;
+  justify-content: center;
+ 
+  padding-bottom: 2%;
+}
+.thin-black-container{
+  margin-top: 4%;
+
+}
+
+.project-img{
+  width: 40rem;
+  height: 40rem;
+  padding-top: 5rem;
+ padding-right: 2rem;
+}
+.project-title{
+  font-size: 2.2rem;
+}
+.project-title::after{
+   display: block;
+  font-size: 1.3rem;
+}
+#projects{
+  position: relative;
+  
+}
+.verticaltext::after{
+
+
+font-size: 1.2rem;
+
+margin-left: 25rem;
+margin-top: 50%;
+
+}
+.aboutme{
+   font-size: 2rem;
+   padding-left: 3rem;
+   line-height: 2rem;
+   padding-top: 1em;
+}
+.profile-image{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10% 50% 10%;
+  padding-top: 2em;
+  padding-right: 5rem;
+}
+
+.black{
+  font-size: 1.5rem;
+   line-height: 0.5rem;
+   padding-bottom: 0rem;
+}
+p{
+  font-size: 3rem;
+  line-height: 130%;
+  word-spacing: 0.5rem;
+}
+.para{
+  padding-top: 13%;
+  text-indent: 10%;
+}
+.images{
+  width: 8rem;
+  height: 8rem;
+  
+
+}
+
+
+
+em{
+  font-size: 1.5rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 3rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  
+ font-size: 2.5rem;
+padding-left: 3rem;
+}
+
+
+
+footer{
+  background: #f5ebe1;
+  color: black;
+}
+}
+@media screen and (min-width: 1680px) {
+
+  section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+    font-size: 2rem;
+
+  }
+  header{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .titleimg{
+    height:  100vh;
+    width:  100vw;
+  }
+  .thin-black-container{
+    line-height: 2rem;
+    word-spacing: 1rem;
+   
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+  .titleimg{
+    width:  70vw;
+    height: 70vh;
+  }
+  .nav-item{
+    margin-left: 0rem;
+    padding-left:  0rem;
+  }
+  .title-top-left{
+    width:  18vw;
+    height:  10vh;
+    font-size: 3rem;
+  }
+ .title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 3rem }
+}
+.black-container{
+  
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+.thin-black-container{
+  margin-top: 4%;
+
+}
+
+.project-img{
+  width: 40rem;
+  height: 40rem;
+  padding-top: 5rem;
+ padding-right: 2rem;
+}
+.project-title{
+  font-size: 2.2rem;
+}
+.project-title::after{
+   display: block;
+  font-size: 1.3rem;
+}
+#projects{
+  position: relative;
+  
+}
+.verticaltext::after{
+
+
+font-size: 2rem;
+
+margin-left: 25rem;
+margin-top: 50%;
+
+}
+.aboutme{
+   font-size: 2rem;
+   padding-left: 3rem;
+   line-height: 2rem;
+   padding-top: 0em;
+}
+.profile-image{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 10% 50% 10%;
+  padding-top: 2em;
+  padding-right: 5rem;
+}
+
+.black{
+  font-size: 1rem;
+   line-height: 0.5rem;
+   padding-bottom: 0rem;
+}
+p{
+  font-size: 10rem;
+  line-height: 100%;
+  word-spacing: 0.5rem;
+}
+.para{
+  padding-top: 10%;
+  text-indent: 10%;
+}
+.images{
+  width: 8rem;
+  height: 8rem;
+  
+
+}
+
+
+
+em{
+  font-size: 1.5rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 3rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  
+ font-size: 2.5rem;
+padding-left: 3rem;
+}
+
+
+
+footer{
+  background: #f5ebe1;
+  color: black;
+}
+}
+
+
+
+
+/* 1900px */
+
+/* 
+@media screen and (min-width: 1900px) {
+  section {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0rem;
+    font-size: 5rem;
+
+  }
+  .thin-black-container{
+    line-height: 3rem;
+    word-spacing: 2rem;
+   
+  }
+
+  h1{
+    font-size: 5rem;
+  }
+  .titleimg{
+    width:  80vw;
+    height: 80vh;
+  }
+  .nav{
+
+   display: block;
+   justify-content: space-around;
+    
+  }
+
+  .nav-item{
+    margin-left: 0rem;
+    padding-left:  0rem;
+    font-size: 5rem;
+    text-decoration: none;
+    padding:  2rem;
+    display: inline-flex;
+  }
+  .title-top-left{
+    width:  20vw;
+    height:  10vh;
+    font-size: 12rem;
+  }
+ .title-top-left:hover{
+  animation: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes title {
+  0% {left: 0}
+  100% { left: 5rem }
+}
+.black-container{
+  
+  display: flex;
+  justify-content: center;
+ 
+  padding-bottom: 8%;
+}
+.thin-black-container{
+  margin-top: 5%;
+}
+
+.project-img{
+  width: 90rem;
+  height: 90rem;
+  padding-top: 10rem;
+ padding-right: 3rem;
+}
+.project-title{
+  font-size: 8rem;
+}
+.project-title::after{
+   display: block;
+  font-size: 4rem;
+}
+#projects{
+  position: relative;
+  
+}
+.verticaltext::after{
+
+display: block;
+font-size: 6rem;
+transform: rotate(-90deg);
+transform-origin: right top 0;
+margin-left: 25rem;
+margin-top: 60%;
+
+}
+.aboutme{
+   font-size: 8rem;
+   padding-left: 3rem;
+   line-height: 5rem;
+}
+.profile-image{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10% 50% 10%;
+  padding-top: 2.5em;
+  padding-right: 5rem;
+}
+
+.black{
+  font-size: 6rem;
+   line-height: 3rem;
+   padding-bottom: 0rem;
+}
+p{
+  font-size: 10rem;
+  line-height: 150%;
+}
+.para{
+  padding-top: 8%;
+  text-indent: 10%;
+}
+.marqueeimages{
+  width: 15rem;
+  height: 15rem;
+
+}
+.marqueetext{
+  text-align: center;
+}
+
+em{
+  font-size: 6rem;
+}
+.footer::before{
+  content: '<footer>';
+  font-size: 8rem;
+  font-style: oblique;
+
+}
+.footer-items{
+  
+ font-size: 5rem;
+padding-left: 3rem;
+}
+
+
+
+footer{
+  background: #f5ebe1;
+  color: black;
+}
+
+}
+@media only screen  and (min-width : 2560px) {
+  p{
+    font-size: 4rem;
+  }
+} */
+ */ */ */
