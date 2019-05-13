@@ -168,7 +168,7 @@ ul{
   font-size: 1.2rem;
 }
 .project-title2::after{
-  content: 'MEAN stack';
+  
   display: block;
   font-size: 1.2rem;
 }
